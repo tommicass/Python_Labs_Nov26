@@ -10,5 +10,4 @@ elevation = 80 * (pi/180)
 height = barrel_height + (distance*tan(elevation))
 - ((9.81*pow(distance,2))/(2*pow((velocity*cos(elevation)),2)))
 
-print(height)
-
+print(round(height,2))
