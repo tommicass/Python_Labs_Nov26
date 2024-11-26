@@ -17,5 +17,7 @@ while len(lotto) < 6:
     else:
         print("Duplicate number = " + str(num))
 
+lotto.sort()
+
 print(lotto)
 print(count)
