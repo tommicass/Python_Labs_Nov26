@@ -21,3 +21,14 @@ lotto.sort()
 
 print(lotto)
 print(count)
+
+#Version: 1.1 - Using sets
+# Sets can't have duplicates, so no need to check for duplicates 
+
+lotto = set()
+
+while len(lotto) < 6:
+    num = random.randint(1,50)
+    lotto.add(num)
+
+print(f"Lottery Numbers are {sorted(lotto)}")
