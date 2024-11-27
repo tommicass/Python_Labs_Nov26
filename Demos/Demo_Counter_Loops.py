@@ -14,3 +14,4 @@ for num in range(0, 10, 1): # range function uses start point, end point and ste
 
 for num in range(10): # if only 1 parameter is specified, the value will be taken as the end point
     print (num)
+    
