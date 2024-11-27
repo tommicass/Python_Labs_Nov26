@@ -5,6 +5,7 @@
 # numbers
 import random
 
+"""
 lotto = []
 
 while len(lotto) < 6:
@@ -13,6 +14,12 @@ while len(lotto) < 6:
         lotto.append(num)
     else: 
         print("Duplicate number =", num)
+"""
 
+lotto = set() # PYTHONIC solution.
 
-print("Lottery numbers =", lotto)
+while len(lotto) < 6:
+    num = random.randint(1, 50)
+    lotto.add(num)
+
+print("Lottery numbers =", sorted(lotto))
