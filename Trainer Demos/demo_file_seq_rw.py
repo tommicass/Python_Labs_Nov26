@@ -22,6 +22,7 @@ for name in movies.keys():
     print(f"{name}: {movies[name]}", end="\n", file=fh_out) # To File..
     # fh_out.write(f"{name}: {movies[name]}\n")
 
+# fh_out.flush() # Flush buffers.
 fh_out.close() # Flush buffers and close file.
 
 print("-" * 60)
