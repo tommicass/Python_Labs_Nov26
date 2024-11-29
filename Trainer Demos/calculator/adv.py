@@ -5,7 +5,6 @@
 """
   Advanced functions for Calculator App including modulus, power and sqrt
 """
-import sys
 
 def mod(x, z):
     """ Return REMAINDER of x modulus z """
@@ -18,6 +17,3 @@ def power(x, z):
 def sqrt(x):
     """ Return square root of x to 2 decimal places """
     return round(x**0.5, 2)
-
-
-sys.exit(0)
