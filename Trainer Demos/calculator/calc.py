@@ -50,11 +50,9 @@ def main():
                 print("Invalid option")
     return None
 
-print("starting..")
 # Namespace Trick
 if __name__ == "__main__":
     # Execute ONLY if ran directly as a program
     # Ignore if imported as a module.
-    print("hello")
     main()
     sys.exit(0)
