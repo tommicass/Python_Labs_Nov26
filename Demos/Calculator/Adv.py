@@ -19,4 +19,6 @@ def sqrt(x):
     """ Return the square root of x as a float to 2 decimal places"""
     return round(x**0.5, 2)
 
-sys.exit(0)
+if __name__ == "__main__":
+    # Include standalone code to run if running as a program (not a module)
+    sys.exit(0)

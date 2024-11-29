@@ -29,4 +29,6 @@ def div(x, z):
     """ Return divisor of x divided by z to 3 decimal places """
     return round(x/z, 3)
 
-sys.exit(0)
+if __name__ == "__main__":
+    # Include standalone code to run if running as a program (not a module)
+    sys.exit(0)
