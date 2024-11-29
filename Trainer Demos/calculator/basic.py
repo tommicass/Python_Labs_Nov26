@@ -5,7 +5,6 @@
 """
   Basic Calcualtor functions including add, sub, mul and div functions.
 """
-import sys
 
 def add(*args):
     """ Return SUM of all arguments """
@@ -28,6 +27,3 @@ def mul(*args):
 def div(x, z):
     """ Return quotient of x divided by z to 3 decimal places """
     return round(x/z, 3)
-
-
-sys.exit(0)
