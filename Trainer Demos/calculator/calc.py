@@ -50,6 +50,7 @@ def main():
                 print("Invalid option")
     return None
 
+
 # Namespace Trick
 if __name__ == "__main__":
     # Execute ONLY if ran directly as a program

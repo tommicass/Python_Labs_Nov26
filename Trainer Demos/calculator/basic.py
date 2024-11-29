@@ -27,3 +27,4 @@ def mul(*args):
 def div(x, z):
     """ Return quotient of x divided by z to 3 decimal places """
     return round(x/z, 3)
+
