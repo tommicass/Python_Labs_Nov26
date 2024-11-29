@@ -11,7 +11,7 @@ class Tank(vehicle.Vehicle):
     # Class has Attributes/Data + Behaviour/Methods
     def __init__(self, country, model) -> None:
         # Constructor - used to INITILIASE NEW objects!
-        vehicle.Vehicle.__init__(self, country, model)
+        super(vehicle.Vehicle).__init__(self, country, model)
         self._direction = 0
         self._location = {'x':0, 'y':0, 'z':0}
         self._shells = 20
