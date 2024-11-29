@@ -16,3 +16,7 @@ for num in range(0, 10, 1):
 # for loop and the built in range(start, stop, step=1) function.
 for num in range(0, 10):
     print(num)
+
+# for loop and the built in range(start=0, stop, step=1) function.
+for num in range(10):
+    print(num)
